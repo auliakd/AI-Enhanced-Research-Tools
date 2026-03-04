@@ -23,3 +23,17 @@ def keyword_screening(df, keywords):
 # Example of use (can be adjusted later)
 if __name__ == "__main__":
     print("AI-Enhanced Research Tools: SLR Module Loaded.")
+
+# Creating sample data (Dummy Data)
+data = {
+    'Title': ['Research A', 'Research B', 'Research C'],
+    'Abstract': ['Artificial Intelligence in education', 'Traditional teaching', 'Machine learning and SLR']
+}
+df_test = pd.DataFrame(data)
+
+# Testing screening functions
+keywords = ['Artificial Intelligence', 'Machine learning']
+result = keyword_screening(df_test, keywords)
+
+print("\n--- Screening Test Results ---")
+print(result)
