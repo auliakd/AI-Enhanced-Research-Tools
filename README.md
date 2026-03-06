@@ -1,24 +1,34 @@
-# AI-Enhanced-Research-Tools
-Automating the Systematic Literature Review (SLR) pipeline using Python and AI agents, inspired by Atkinson (2023) and Sami et al. (2025).
+🚀 AI-Enhanced Systematic Literature Review (SLR) Automation
+Project Overview
+This repository focuses on enhancing the efficiency and rigor of Systematic Literature Review (SLR) through Python-based automation. Inspired by the methodological frameworks of Atkinson & Flint (2023) and the multi-agent AI concepts of Sami et al. (2025), this tool aims to bridge the gap between traditional research and modern AI capabilities.
 
-This repository is dedicated to developing Python-based solutions for automating and optimizing the **Systematic Literature Review (SLR)** process.
+Key Features
+Automated Metadata Cleaning: Efficiently handles missing values and inconsistent data from Scopus and Web of Science (WoS) exports.
 
-## 📌 Project Overview
-The goal of this project is to bridge the gap between traditional research methodologies and modern computational power. By leveraging Artificial Intelligence and Python, we aim to make literature reviews more efficient, transparent, and reproducible.
+Keyword-Based Screening: Implements logic-based filtering to separate relevant papers from noise.
 
-## 📚 Theoretical Foundation
-The development of these tools is guided by the latest academic insights in research automation:
-* **Methodological Rigor:** Adopting the "Cheap, Quick, and Rigorous" framework proposed by **Atkinson & Flint (2023)** to ensure speed does not compromise quality.
-* **Multi-Agent Systems:** Conceptually inspired by the automated SLR pipeline research by **Sami et al. (2025)**, focusing on end-to-end research automation.
+Summary Statistics: Generates instant inclusion/exclusion metrics (Inclusion Rate %).
 
-## 🛠️ Key Features (Work-in-Progress)
-- **Automated Metadata Extraction:** Scripts to clean and process data from Scopus/WoS.
-- **NLP-Based Screening:** Using Natural Language Processing to filter articles based on inclusion/exclusion criteria.
-- **Topic Modeling:** Visualizing research gaps and emerging trends in specific academic fields.
+Data Visualization: Automatically produces charts to visualize the screening process for research reports.
 
-## 👨‍💻 Tech Stack
-- **Language:** Python 3.x
-- **Libraries:** Pandas, NumPy, Matplotlib (ongoing learning via freeCodeCamp)
+AI Agent Simulation: A conceptual architecture for multi-agent verification to ensure high-quality paper selection.
 
----
-*This repository is part of my continuous learning journey to integrate AI into academic research.*
+Theoretical Foundation
+This project is built upon two core pillars:
+
+Efficiency in SLR: Adopting automation to reduce human error and time consumption in large-scale dataset screening.
+
+AI Integration: Exploring how Multi-Agent Systems can assist human researchers in verifying complex academic contexts.
+
+📊 Execution Result
+Below is the proof of concept (PoC) showing the script successfully processing dummy research data:
+
+Roadmap & Future Work
+[ ] Basic Metadata Cleaning & Filtering
+[ ] Automated Summary Statistics
+[ ] Data Visualization (Charts)
+[ ] Integration with Large Language Models (LLMs) via API
+[ ] Automated Synthesis Generation
+
+Contact & Collaboration
+I am actively developing this tool as part of my preparation for advanced research (Master/PhD). Feel free to reach out for collaboration or academic discussions!
