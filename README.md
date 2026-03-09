@@ -24,11 +24,17 @@ AI Integration: Exploring how Multi-Agent Systems can assist human researchers i
 Below is the proof of concept (PoC) showing the script successfully processing dummy research data:
 
 Roadmap & Future Work
+
 [✅] Basic Metadata Cleaning & Filtering
+
 [✅] Automated Summary Statistics
+
 [✅] Data Visualization (Charts)
+
 [✅] Integration with Large Language Models (LLMs) via API
+
 [✅] Automated Synthesis Generation
+
 
 Contact & Collaboration
 I am actively developing this tool as part of my preparation for advanced research (Master/PhD). Feel free to reach out for collaboration or academic discussions!
